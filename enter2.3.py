@@ -227,7 +227,7 @@ def main():
             exp_frame.grid_remove()
             em_frame = Frame(root, bg='light blue')
             em_frame.grid(row=0, column=0)
-            print('ASS')
+            print('god')
             # print(butname[j])
             # text = butexp.cget('text')
             # print(text)
