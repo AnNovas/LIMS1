@@ -229,7 +229,7 @@ def main():
             em_frame.grid(row=0, column=0)
             print('god')
             # print(butname[j])
-            # text = butexp.cget('text')
+            # text = butexp[j].cget('text')
             # print(text)
             labelexpname = Label(em_frame, text="{}".format(butname[j]), bg='light green')
             labelexpname.grid(row=0, column=0)
