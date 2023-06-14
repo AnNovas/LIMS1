@@ -2271,7 +2271,7 @@ def main():
         elif r[2]<45:
             x=2
 
-    cursor.execute("SELECT ReagName1, Amount - sum(AmUsed) as lef, MinAmount FROM mydb.reagusage "
+    cursor.execute("SELECT ReagName1, Amount - sum(AmUsed) as lef, MinAmount FROM reagusage "
                    "join reagent on idReagent = Reagent_idReagent join reaginfo on idReagInfo = ReagInfo_idReagInfo "
                    "group by idReagent;")
     for r in cursor.fetchall():
